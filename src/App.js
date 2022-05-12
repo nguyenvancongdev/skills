@@ -1,19 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
+import Main from "./pages/main/Main";
+import Admin from "./pages/admin/Admin";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-    
-    
-        <p>
-         Vân ngủ hngon nhé
-        </p>
-      
-      
-      </header>
-    </div>
+    <>
+    jij
+    <Routes>
+            <Route path="/admin" element={<Admin/>} />
+            <Route path="/main" element={<Main/>} />
+            </Routes>
+    </>
   );
 }
 
