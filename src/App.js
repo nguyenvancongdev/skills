@@ -5,15 +5,13 @@ import {
 } from "react-router-dom";
 import Main from "./pages/main/Main";
 import Admin from "./pages/admin/Admin";
-function App() {
+const App = () => {
   return (
-    <>
-    jij
     <Routes>
-            <Route path="/admin" element={<Admin/>} />
-            <Route path="/main" element={<Main/>} />
-            </Routes>
-    </>
+      <Route path="/admin" element={<Admin/>} />
+      <Route path="/main" element={<Main/>} /> 
+      <Route index element={<Main/>} /> 
+    </Routes>
   );
 }
 

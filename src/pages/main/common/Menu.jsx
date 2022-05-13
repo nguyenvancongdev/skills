@@ -1,11 +1,13 @@
-
+import {
+  Link,
+} from 'react-router-dom';
 const Menu = () =>  {
   return (
     <>
-     <div>Home</div>
-     <div>Dự Án</div>
-     <div>Yêu Đời</div>
-     <div>Quá</div>
+    <Link to=''>Home</Link>
+    <Link to='/admin'>Admin</Link>
+    <Link to=''>Home</Link>
+  
     </>
   );
 }
