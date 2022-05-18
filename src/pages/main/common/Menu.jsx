@@ -3,12 +3,10 @@ import {
 } from 'react-router-dom';
 const Menu = () =>  {
   return (
-    <>
+    <div>
     <Link to=''>Home</Link>
     <Link to='/admin'>Admin</Link>
-    <Link to=''>Home</Link>
-  
-    </>
+    </div>
   );
 }
 
